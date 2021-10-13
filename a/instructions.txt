@@ -1,0 +1,15 @@
+How to create basic HTML FORMS?
+
+We are only learning the structure
+
+We are not designing the form
+
+Query String
+?name=value&name=value&name=value
+
+Validation is proccess to check for the correct data
+
+
+https://www.w3schools.com/html/html_form_input_types.asp
+
+https://www.w3schools.com/tags/att_input_required.asp

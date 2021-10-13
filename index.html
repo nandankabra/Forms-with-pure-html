@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <form>
+            <h1> HTML Form </h1>
+            <div>
+                <label for="USername"> Name : </lable>
+                <input type="text" id="USername" name="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="Email"> Email : </label>
+                <input type="email" id="Email" name="email" required>
+            </div>
+            <br>
+            <input type = "submit" value = "SUBMIT">
+
+        </form>
+        <hr>
+        <form>
+            <h1> HTML Form </h1>
+            <div>
+                <label for="USername"> Frist Name : </lable>
+                <input type="text" id="USername" name="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="USername"> Last Name   :     </lable>
+                <input type="text" id="USername" name="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="Email"> E-mail : </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+             <input type="radio" id="male" name="gender" value="male" > 
+             <label for="male"> Male </label>
+            
+            <br>
+            <input type="radio" id="female" name="gender" value="female" > 
+             <label for="female"> Female </label>
+            <br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </form>
+        <hr>
+        <form>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>
+                            Name 
+                        </th>
+                        <th>
+                            Value
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td> Gender </td>
+                        <td>
+                            <input type="radio" id="male" name="gender1" value="male" > 
+                            <label for="male"> Male </label>
+                            <br>
+                            <input type="radio" id="female" name="gender1" value="female" > 
+                            <label for="female"> Female </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Eye Color </td>
+                        <td> 
+                            <select> 
+                                <option>green</option>
+                                <option>brown</option>
+                                <option>black</option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Check all that apply</td>
+                        <td> 
+                            <input type="checkbox" id="box1" name="height" value="6+" > 
+                            <label for="box"> Over 6 Feet Tall </label>
+                            <br>
+                            <input type="checkbox" id="box" name="pounds" value="200+" > 
+                            <label for="box"> Over 200 pounds </label>
+                        </td>
+                        
+
+                    </tr>
+                    <tr >
+                        <td  colspan="2">
+                            Describe  your athlectic ability :<br>
+                            <textarea rows="10" cols="40">
+
+                            </textarea>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="enter my information">
+                            
+                        </td>
+                    </tr>
+                </tbody> 
+
+            </table>
+
+        </form>
+
+
+        
+
+    </body>
+</html>
